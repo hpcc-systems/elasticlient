@@ -11,7 +11,7 @@ if(CMAKE_VERSION VERSION_LESS "3.1")
         message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support.")
     endif()
 else()
-    set(CMAKE_CXX_STANDARD 11)
+    set(CMAKE_CXX_STANDARD 17)
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif()
 
